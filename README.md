@@ -15,7 +15,9 @@ After that, you can place up-to 10 destination points with the 'D' key. After 10
 
 If you want to calculate earlier and not use 10 points, simply press 'X' key at any given time.   
 
-This 10-point restriction is to prevent insane search times and/or out of memory errors.   
+~~This 10-point restriction is to prevent insane search times and/or out of memory errors.~~
+
+WIP: Currently trying to fix memory issue..
 
 ## Screenshots
 
