@@ -11,13 +11,22 @@ Make sure you imported stdlib.jar into your project. After that, run Main.java
 
 In the following StdDraw window, first press 'S' key to place the starting point.   
 
-After that, you can place up-to 10 destination points with the 'D' key. After 10 destination points have been placed, program will automatically start calculating the minimum distance route.   
+After that, you can place destination points with the 'D' key. You can place as much as you want but be careful as time it takes to calculate is exponential.   
 
-If you want to calculate earlier and not use 10 points, simply press 'X' key at any given time.   
+When you feel like you are done with destination points, press 'X' key to start calculating.   
 
-~~This 10-point restriction is to prevent insane search times and/or out of memory errors.~~
+Estimated times to calculate according to point number; (Please note that these times can change based on system specs.)
 
-WIP: Currently trying to fix memory issue..
+> <=6 Points = 100ms   
+> 7 Points = 150ms   
+> 8 Points = 250ms   
+> 9 Points = 450ms   
+> 10 Points = 3s   
+> 11 Points = 33s   
+> 12 Points = 7.5m   
+> \>12 Points = Too much.
+
+You can clearly see that it increases very quickly, making it exponential. Our time complexity is O(n!).
 
 ## Screenshots
 
