@@ -7,7 +7,9 @@ A brute-force searching program in order to calculate the minimum distance while
 
 ## How To Use?
 
-Make sure you imported stdlib.jar into your project. After that, run Main.java   
+You can run the TravellingSalesman.jar executable from the releases tab.  
+
+If you want to build it yourself, make sure you imported stdlib.jar into your project. After that, run TravellingSalesman.java   
 
 In the following StdDraw window, first press 'S' key to place the starting point.   
 
@@ -26,7 +28,9 @@ Estimated times to calculate according to point number; (Please note that these 
 > 12 Points = 7.5m   
 > \>12 Points = Too much.
 
-You can clearly see that it increases very quickly, making it exponential. Our time complexity is O(n!).
+You can clearly see that it increases very quickly, making it exponential. Our time complexity is O(n!).  
+
+This project was done with open-jdk-16.
 
 ## Screenshots
 

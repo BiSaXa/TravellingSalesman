@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class Main {
+public class TravellingSalesman {
     public static void main(String[] args) {
         // DIALOGUE BOX AT THE START IN ORDER TO SHOW INFO
         String message = """
